@@ -1,0 +1,26 @@
+$hedeer: rgba(68, 68, 68, 0.555);
+$a: 500px;
+$bojanavbara: rgba(184, 184, 39, 0.795);
+body{
+    background-image:url('https://www.mykonosgrand.gr/wp-content/uploads/2014/05/Beautiful-Nature-Wallpapers-for-Background-HD-Wallpaper.jpg');
+    background-size:cover;
+    z-index:0;
+}
+.heder{
+    background-color:$hedeer;
+    height: calc(#{$a} + 0px);
+}
+.ajtem1{
+    background-color:$bojanavbara;
+    
+}
+.about{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    :hover{
+        text-decoration:none;
+    color:white !important;
+    font-size:15px;
+    }
+}
